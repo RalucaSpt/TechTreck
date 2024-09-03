@@ -144,6 +144,20 @@ p {
     font-size: 1rem;
 }
 
+/* Stilizare pentru secțiunea "Facebook Promo" */
+#facebook-promo {
+    text-align: center;
+    padding: 20px;
+    background-color: #dfe6e9;
+    border-radius: 8px;
+}
+
+.promo-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
 
 
 

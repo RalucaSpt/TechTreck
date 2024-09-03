@@ -1,7 +1,7 @@
 /*Stilizare pentru header */
 header {
-    background: #445444;
-    color: #e7ffed;
+    background: var(--primary-color);
+    color: var(--text-color);
     padding: 20px 0;
     text-align: center;
 }
@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #e7ffed;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -50,5 +50,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #3e4640;
+    background-color: var(--hover-color);
 }

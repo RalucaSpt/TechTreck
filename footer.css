@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #445444;
+    --hover-color: #3e4640;
+    --text-color: #e7ffed;
+}
+
+/* Stilizare pentru footer */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+
+footer .contact-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+footer .contact-card div {
+    margin: 15px;
+    flex: 1;
+    min-width: 200px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+footer p, footer address {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--hover-color);
+}
+
+footer a img {
+    margin: 0 10px;
+    width: 25px;
+    height: auto;
+}
+
+/* Stilizare pentru textul de copyright */
+footer p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #b0b0b0;
+}
+
+/* Stilizare pentru .card-info */
+footer .contact-card .company-info {
+    font-size: 2em; /* dublu față de 1.2rem */
+}

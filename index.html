@@ -22,6 +22,7 @@
 
         <link rel="stylesheet" href="header.css">
         <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <header>
@@ -40,29 +41,31 @@
         </header>
         
         <main>
-            <section>
-                <h2>Despre noi</h2>
-                <p>AGH For Construct SRL este partenerul tău de încredere în explorarea și utilizarea resurselor naturale. Specializați în foraje pentru puțuri de apă, pompe de căldură și prospecțiuni geologice, oferim soluții personalizate pentru nevoile tale, folosind tehnologii de ultimă generație și expertiză acumulată în ani de experiență. Cu o echipă dedicată și un angajament ferm pentru calitate, suntem aici pentru a transforma proiectele tale în realitate, asigurând resurse sustenabile și eficiență energetică pe termen lung.</p>
-                <img src="pictures/wallpaper.jpg" alt="Water well" width="300">
-            </section>
-
-            <section>
+            <section id="about-us">
+                <div class="text-content">
+                    <h2>Despre noi</h2>
+                    <p>AGH For Construct SRL este partenerul tău de încredere în explorarea și utilizarea resurselor naturale. Specializați în foraje pentru puțuri de apă, pompe de căldură și prospecțiuni geologice, oferim soluții personalizate pentru nevoile tale, folosind tehnologii de ultimă generație și expertiză acumulată în ani de experiență. Cu o echipă dedicată și un angajament ferm pentru calitate, suntem aici pentru a transforma proiectele tale în realitate, asigurând resurse sustenabile și eficiență energetică pe termen lung.</p>
+                </div>
+                <img src="pictures/wallpaper.jpg" alt="Water well" class="about-image">
+            </section>            
+        
+            <section id="services">
                 <h2>Servicii</h2>
-                <ul>
+                <ul class="services-list">
                     <li>Foraje Puțuri Apă</li>
                     <li>Prospecțiuni Geologice</li>
                     <li>Instalare Pompe de Căldură</li>
                 </ul>
             </section>
-
-            <section>
+        
+            <section id="projects">
                 <h2>Proiectele noastre</h2>
-                <ul>
+                <ul class="projects-list">
                     <li>
                         <figure>
                             <video width="150" autoplay muted>
                                 <source src="video/cat.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
+                                Your browser does not support the video tag.
                             </video> 
                             <figcaption>Bacău</figcaption>
                         </figure>
@@ -71,7 +74,7 @@
                         <figure>
                             <video width="150" autoplay muted>
                                 <source src="video/cat.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
+                                Your browser does not support the video tag.
                             </video> 
                             <figcaption>Adjud</figcaption>
                         </figure>
@@ -80,17 +83,17 @@
                         <figure>
                             <video width="150" autoplay muted>
                                 <source src="video/cat.mp4" type="video/mp4">
-                              Your browser does not support the video tag.
+                                Your browser does not support the video tag.
                             </video> 
                             <figcaption>Brasov</figcaption>
                         </figure>
                     </li>
                 </ul>
             </section>
-
-            <section>
+        
+            <section id="why-choose-us">
                 <h2>De ce să ne alegi pe noi?</h2>
-                <ul>
+                <ul class="why-choose-list">
                     <li>Expertiză și Experiență</li>
                     <li>Servicii Complete</li>
                     <li>Tehnologie Modernă</li>
@@ -98,14 +101,15 @@
                     <li>Satisfacția Clienților</li>
                 </ul>
             </section>
-
-            <section>
+        
+            <section id="facebook-promo">
                 <a href="https://www.facebook.com/profile.php?id=61555883403799" title="Facebook Page">
                     <h2>Accesează pagina de Facebook pentru a afla cele mai recente lucrări!</h2>
                 </a>
-                <img src="pictures/worker.jpg" alt="Worker" width="600">
+                <img src="pictures/worker.jpg" alt="Worker" class="promo-image">
             </section>
         </main>
+        
 
         <footer>
             <div class="contact-card">

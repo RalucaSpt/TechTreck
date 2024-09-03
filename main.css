@@ -1,0 +1,71 @@
+/* Stiluri generale */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2e4d4f;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Stilizare pentru secțiunea "Despre noi" */
+#about-us {
+    display: flex;
+    flex-direction: row;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.text-content h2 {
+    margin-bottom: 15px;
+}
+
+.text-content p {
+    margin-bottom: 0;
+}
+
+.about-image {
+    flex: 1;
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    
+}
+
+@media screen and (max-width: 768px) {
+    #about-us {
+        flex-direction: column;
+    }
+
+    .text-content {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .about-image {
+        width: 100%; 
+        height: auto; 
+        margin-top: 20px;
+    }
+}
+

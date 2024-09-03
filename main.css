@@ -69,3 +69,22 @@ p {
     }
 }
 
+/* Stilizare pentru secțiunea "Servicii" */
+#services {
+    margin-bottom: 30px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+}
+
+.services-list li {
+    background-color: #e8e8e8;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #333;
+}
+

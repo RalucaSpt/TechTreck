@@ -88,3 +88,31 @@ p {
     color: #333;
 }
 
+/* Stilizare pentru secțiunea "Proiectele noastre" */
+#projects {
+    margin-bottom: 30px;
+}
+
+.projects-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.projects-list li {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.projects-list figure {
+    margin: 0;
+}
+
+.projects-list video {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+

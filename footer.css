@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #445444;
-    --hover-color: #3e4640;
+    --primary-color: #3e4640;
+    --hover-color: #445444;
     --text-color: #e7ffed;
 }
 
@@ -67,5 +67,5 @@ footer p {
 
 /* Stilizare pentru .card-info */
 footer .contact-card .company-info {
-    font-size: 2em; /* dublu față de 1.2rem */
+    font-size: 2em; 
 }

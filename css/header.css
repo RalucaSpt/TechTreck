@@ -1,29 +1,32 @@
 /*Stilizare pentru header */
 header {
-    background: var(--primary-color) no-repeat center center/cover;
+    background: var(--primary-color); no-repeat center center/cover;
     color: var(--text-color);
     text-align: center;
 }
 
-header img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: cover;
-    }
-
-header h1 {
-    font-size: 2.5rem;
-    margin: 10px 0;
-    font-weight: bold;
-    letter-spacing: 2px;
+.image-header{
+    display: flex;
+    background: url(../pictures/wallpaper.jpg) no-repeat center;
+    background-size:cover;
+    height: 500px;
+    opacity: 0.5;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px ;
 }
 
-header p {
-    font-size: 1.2rem;
-    font-style: italic;
-    margin-bottom: 20px;
+.image-text {
+    color: white;
+    font-size: 2em;
 }
+
+.image-text p {
+    font-size: 1em; 
+    color: white;
+}
+
+/* Stilizare pentru navigație */
 header nav {
     display: flex;
     justify-content: space-between;
@@ -31,8 +34,9 @@ header nav {
     background-color: var(--primary-color);
     position: fixed;
     width: 100%;
+    z-index: 1000;
 }
-/* Stilizare pentru navigație */
+
 nav ul {
     list-style: none;
     padding: 0;

@@ -1,6 +1,6 @@
 /*Stilizare pentru header */
 header {
-    background: var(--primary-color); no-repeat center center/cover;
+    background: var(--primary-color) no-repeat center;
     color: var(--text-color);
     text-align: center;
 }
@@ -13,17 +13,16 @@ header {
     opacity: 0.5;
     align-items: center;
     justify-content: center;
-    margin: 20px 10px ;
+    margin: 0px 10px ;
 }
 
-.image-text {
+.image-text, .image-text p {
     color: white;
     font-size: 2em;
 }
 
 .image-text p {
     font-size: 1em; 
-    color: white;
 }
 
 /* Stilizare pentru navigație */

@@ -54,6 +54,7 @@ video{
 
 .about-image {
     flex: 1;
+    align-self: center;
     width: 300px; 
     height: 300px; 
     object-fit: cover; 
@@ -85,6 +86,9 @@ video{
 }
 
 .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     list-style: none;
     padding: 0;
 }

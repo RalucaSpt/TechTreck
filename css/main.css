@@ -1,4 +1,9 @@
 /* Stiluri generale */
+body{
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}
 main {
     padding: 20px;
     max-width: 1200px;
@@ -40,6 +45,12 @@ p {
 
 .text-content p {
     margin-bottom: 0;
+}
+
+video{
+    z-index: 0;
+    position: relative;
+    
 }
 
 .about-image {

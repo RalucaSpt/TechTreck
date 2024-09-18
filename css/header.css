@@ -2,7 +2,6 @@
 header {
     background: var(--primary-color) no-repeat center center/cover;
     color: var(--text-color);
-    padding: 20px 0;
     text-align: center;
 }
 
@@ -25,7 +24,11 @@ header p {
     font-style: italic;
     margin-bottom: 20px;
 }
-
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* Stilizare pentru navigație */
 nav ul {
     list-style: none;
@@ -34,6 +37,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 15px;
+    max-height: 60px;
 }
 
 nav ul li {
@@ -51,4 +55,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: var(--hover-color);
+}
+a #nav-logo {
+    max-height: 50px;
+    padding: 10px;
+    object-fit: contain;
 }
